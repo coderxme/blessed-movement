@@ -1,0 +1,36 @@
+@tailwind components;
+
+
+@layer components {
+    .userDashboardContainer{
+        @apply  h-full flex flex-col items-center font-montserrat  bg-[#EBF4FD] pt-10
+    }
+    .userDashboardWrapper{
+        @apply w-[80%]
+    }
+
+    .userDashboardtitle{
+        @apply text-[#298BD9] text-[2rem] font-bold text-center lg:text-start
+    }
+
+    .userBoxWrapper{
+        @apply flex flex-wrap gap-4 mt-10 items-center justify-center lg:items-start lg:justify-start
+    }
+
+    .userBox{
+        box-shadow: -10px 10px 0 #298BD9;
+        @apply bg-white flex items-center w-[90%] lg:w-[30%] h-[200px] rounded-[15px] justify-around
+    }
+
+    .userBox p{
+        @apply font-montserrat font-bold text-[#3C3C3C] w-[50%] text-xl lg:text-lg
+    }
+
+    .userIcon{
+        @apply rounded-full bg-[#298ad923] p-3
+    }
+
+    .userIcon img{
+        @apply w-[40px] lg:w-[60px]
+    }
+}
